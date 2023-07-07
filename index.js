@@ -87,4 +87,4 @@ client.once(Events.ClientReady, () => {
     console.log('Ready!');
 });
 
-client.login("NTk2ODU4MTk4Mzg0NzA1NTQ2.Gf_JAB.KfgPyCTNW8A6hbTvPjU8g1jTnD18MfPrO4V4ys");
+client.login(process.env.BOT_TOKEN);
